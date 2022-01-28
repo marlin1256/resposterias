@@ -1,0 +1,177 @@
+*{
+
+	margin: 1%;
+	padding: 2%;
+
+}
+body{
+	background:
+ #ffe6ff;
+}
+
+h1{
+	text-align: center;
+	background: rgba(247, 169, 208, 0.65);
+}
+.merie1{
+    margin: 5%;
+	padding: 10px 5px;
+	padding: 0px 1px;
+	background: rgba(228, 137, 244, 0.35);
+	letter-spacing: 2px;
+	 text-align: center;
+  font-family: Verdana, Haettenschweiler, "Verdana", sans-serif;
+}
+.merie{
+	margin: 5%;
+	padding: 10px 5px;
+	background: rgba(228, 137, 244, 0.35);
+	letter-spacing: 2px;
+	 text-align: center;
+  font-family: Verdana, Haettenschweiler, "Verdana", sans-serif;
+}
+
+.marlin{
+	margin: 5%;
+	padding: 10px 5px;
+	background: rgba(228, 137, 244, 0.35);
+	letter-spacing: 2px;
+	 text-align: center;
+  font-family: Verdana, Haettenschweiler, "Verdana", sans-serif;
+}
+
+.ok{
+	padding: 20px 30px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.ok2{
+	padding: 20px 30px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.ok3{
+	padding: 20px 30px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.ok1{
+	padding: 20px 30px;
+	letter-spacing: 4px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.ok2{
+	padding: 20px 30px;
+	letter-spacing: 4px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.ok3{
+	padding: 20px 30px;
+	letter-spacing: 4px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.ok4{
+	padding: 20px 30px;
+	letter-spacing: 4px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+.ok44{
+	padding: 20px 30px;
+	letter-spacing: 4px;
+	text-align: center;
+	font-family: sans-serif;
+}
+footer {
+  max-width: 100%;
+  
+  margin: 0 auto;
+  border-radius: 0 0 20px 20px;
+
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: "open sans";
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.redes {
+  background: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.redes:hover {
+  animation: 1s rotacion 1;
+}
+
+@keyframes logo {
+  0% {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes icono {
+  0% {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes slider {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+@keyframes rotacion {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sclae {
+  0% {
+    transform: scale(100);
+  }
+}

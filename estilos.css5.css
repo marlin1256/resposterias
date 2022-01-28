@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: monospace;
+  background:  #F1CCF0
+;
+}
+.cont {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  background: rgba(177, 250, 243 );
+  width: 50%;
+  height: 90%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(246, 121, 235) 0px 0px 50px;
+  border-radius: 10px;
+}
+input,
+textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 15px 0px;
+  width: 80%;
+  margin: 20px;
+  transition: all 300ms;
+  border-bottom: 1px solid rgba(5, 4, 4 );
+}
+
+input:focus,
+textarea:focus {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  border-bottom-color:  #F525CF;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 100px;
+}
+
+
+
+button {
+  border: none;
+  outline: none;
+  background:  #F9F3A7 ;
+  padding: 15px;
+  width: 200px;
+  color: black;
+  border-radius: 2px;
+  box-shadow: rgba(227, 31, 191) 0px 0px 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+h2 {
+  color: #000000;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0) 0px 0px 10px;
+}
+.redes {
+  background: #FFBFBF;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.redes:hover {
+  animation: 1s rotacion 1;
+}
+
+/*KYFRAME*/
+
+@keyframes logo {
+  0% {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes icono {
+  0% {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes slider {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+@keyframes rotacion {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sclae {
+  0% {
+    transform: scale(100);
+  }
+}
+
+/*KYFRAME*/
